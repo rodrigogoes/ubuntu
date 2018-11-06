@@ -1,0 +1,1 @@
+top | grep load >> /home/rodrigo/Documentos/tarefas.txt

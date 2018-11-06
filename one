@@ -1,0 +1,9 @@
+read LINK
+TIPO=$(echo "$LINK" | grep -o .jpg)
+
+if test "$TIPO" = ".jpg" 
+ 	then
+	cd /home/rodrigo/ARQUIVOS/FOTOS
+	wget "$LINK"
+fi
+

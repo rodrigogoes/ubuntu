@@ -1,0 +1,18 @@
+
+
+echo "Digite o caminho da foto"
+read LINK
+echo Fazendo download...
+sleep 2
+echo "Digite o tipo FOTO/PDF"
+read TIPO
+
+if test "$TIPO" = "FOTO"
+	then
+	cd /home/rodrigo/ARQUIVOS/FOTOS
+	wget "$LINK"
+	else
+	cd /home/rodrigo/ARQUIVOS/PDF
+	wget "$LINK"
+	fi
+

@@ -1,0 +1,12 @@
+VARIAVEL=1
+echo "Escreva o nome da pasta"
+read PASTA
+
+if test "$VARIAVEL" -eq 1
+	then
+	cd "$PASTA"
+	pwd
+	else
+	echo "Não mudou"
+	fi
+

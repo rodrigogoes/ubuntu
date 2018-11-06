@@ -1,0 +1,16 @@
+mkdir /home/rodrigo/Imagens/arquivos
+
+mkdir /home/rodrigo/Imagens/arquivos/pdf
+
+mkdir /home/rodrigo/Imagens/arquivos/fotos
+
+mkdir /home/rodrigo/Imagens/arquivos/pdf/tecnico
+
+mkdir /home/rodrigo/Imagens/arquivos/pdf/culinaria
+
+mkdir /home/rodrigo/Imagens/arquivos/fotos/casas
+
+mkdir /home/rodrigo/Imagens/arquivos/fotos/carros
+
+cd /home/rodrigo/Imagens/arquivos/fotos/carros
+wget https://abrilexame.files.wordpress.com/2018/04/gm-tracker.jpg
