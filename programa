@@ -1,0 +1,15 @@
+rm -r /home/rodrigo/Documentos/backup/*
+
+echo Copiando...
+
+cp -rf * /home/rodrigo/Documentos/backup
+
+echo Copia Finalizada!
+
+ls
+
+
+
+
+
+

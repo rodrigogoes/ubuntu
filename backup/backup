@@ -1,0 +1,21 @@
+top | grep load >> /home/rodrigo/Documentos/load.txt
+echo Copiando...
+
+top | grep mem >> /home/rodrigo/Documentos/mem.txt
+echo Copiando...
+
+top | grep tarefa >> /home/rodrigo/Documentos/tarefa.txt
+echo Copiando...
+
+top | grep cpu >> /home/rodrigo/Documentos/cpu.txt
+echo Copiando...
+
+cp -rf /home/rodrigo/Documentos/load.txt
+cp -rf /home/rodrigo/Documentos/tarefas.txt
+cp -rf /home/rodrigo/Documentos/cpu.txt
+cp -rf /home/rodrigo/Documentos/mem.txt
+
+rm -rf /home/rodrigo/Documentos/load.txt
+rm -rf /home/rodrigo/Documentos/tarefas.txt
+rm -rf /home/rodrigo/Documentos/cpu.txt
+rm -rf /home/rodrigo/Documentos/mem.txt
